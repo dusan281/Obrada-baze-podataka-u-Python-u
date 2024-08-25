@@ -4,7 +4,7 @@ import os
 current_directory = os.getcwd()
 print(f"Trenutni radni direktorijum je: {current_directory}")
 
-# Učitajte CSV fajl
+
 df = pd.read_csv('C:/Users/hp/Desktop/6 semestar/pmt/baza.csv')
 df['GAME_DATE_EST'] = pd.to_datetime(df['GAME_DATE_EST'], format='%m/%d/%Y') 
 
